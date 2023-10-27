@@ -1,0 +1,20 @@
+.flex-container {
+    display: flex;
+    height: 100px;
+    background-color: cadetblue;
+    gap: 12px;
+    max-width: 1000px;
+}
+
+.flex-item {
+    flex: 1;
+    line-height: 100%;
+    text-align: center;
+}
+
+.flex-item:nth-child(odd){
+    background-color: aqua;
+}
+.flex-item:nth-child(even){
+    background-color: beige;
+}
