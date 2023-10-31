@@ -1,0 +1,37 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 300px;
+}
+
+.pole{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.pageHeader {
+    font-family: "Times New Roman";
+    background-color: aqua;
+}
+.pageFooter{
+    background-color: azure;
+}
+.content{
+    flex: 1;
+    display: flex;
+    gap: 12px;
+    background-color: darkgrey;
+}
+
+.aside{
+    flex: 0 1 300px;
+    max-width: 100px;
+    background-color: lavenderblush;
+}
+.main{
+    flex: 1;
+    background-color: aliceblue;
+}
